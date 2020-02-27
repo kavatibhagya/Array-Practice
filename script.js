@@ -1,4 +1,4 @@
-const items = [
+/* const items = [
     { name: 'Bike',  price: 100 },
     { name: 'TV',  price:200 },
     { name: 'Album',  price: 10 },
@@ -7,7 +7,7 @@ const items = [
     { name: 'Computer',  price: 1000 },
     { name: 'Key Board',  price: 25 },
 ]
-/* const filterdItems = items.filter((item) => {
+const filterdItems = items.filter((item) => {
     return item.price <= 100
 })
 const itemName = items.map((item) => {
@@ -18,7 +18,7 @@ const foundItem = items.find((item) => {
 })
     console.log(filterdItems); 
     console.log(itemName);
-    console.log(foundItem); */
+    console.log(foundItem); 
 
 
     items.forEach((item) => {
@@ -40,5 +40,17 @@ const foundItem = items.find((item) => {
             return item.price <=1000
         })
        
-            console.log(hasItems);
-            
+            console.log(hasItems); 
+
+            const total = items.reduce((currentTotal, item) => {
+                return item.price + currentTotal;
+
+            }, 0)
+            console.log(total) */
+
+             const items = [1, 2, 3, 4, 5];
+
+              const foundNumber = items.includes(7)
+              console.log(foundNumber);
+
+
