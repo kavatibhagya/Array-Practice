@@ -7,7 +7,7 @@ const items = [
     { name: 'Computer',  price: 1000 },
     { name: 'Key Board',  price: 25 },
 ]
-const filterdItems = items.filter((item) => {
+/* const filterdItems = items.filter((item) => {
     return item.price <= 100
 })
 const itemName = items.map((item) => {
@@ -18,5 +18,27 @@ const foundItem = items.find((item) => {
 })
     console.log(filterdItems); 
     console.log(itemName);
-    console.log(foundItem);
-    
+    console.log(foundItem); */
+
+
+    items.forEach((item) => {
+        console.log(item.name)
+    })
+
+    items.forEach((item) => {
+        console.log(item.price)
+    })
+
+    const hasInexpensiveItems = items.some((item) => {
+        return item.price <=0
+    })
+   
+        console.log(hasInexpensiveItems);
+
+
+        const hasItems = items.every((item) => {
+            return item.price <=1000
+        })
+       
+            console.log(hasItems);
+            
