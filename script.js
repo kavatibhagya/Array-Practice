@@ -1,4 +1,4 @@
-/* const items = [
+  /*const items = [
     { name: 'Bike',  price: 100 },
     { name: 'TV',  price:200 },
     { name: 'Album',  price: 10 },
@@ -46,11 +46,11 @@ const foundItem = items.find((item) => {
                 return item.price + currentTotal;
 
             }, 0)
-            console.log(total) */
+            console.log(total) 
 
-             const items = [1, 2, 3, 4, 5];
+             const items2 = [1, 2, 3, 4, 5];
 
-              const foundNumber = items.includes(7)
-              console.log(foundNumber);
+              const foundNumber = items2.includes(7)
+              console.log(foundNumber);*/
 
 
