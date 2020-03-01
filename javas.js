@@ -3,7 +3,7 @@ var even = [];
  var odd = [];
 function evenOrOdd(n)
 {
-    for( var i=0; i<n; i++)
+    for( var i=0; i<=n; i++)
     {
         if(i%2==0)
         {
@@ -15,5 +15,5 @@ function evenOrOdd(n)
     }
 }
 evenOrOdd(10);
-console.log(even);
-console.log(odd);
+// console.log(even);
+// console.log(odd);
