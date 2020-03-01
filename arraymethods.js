@@ -1,4 +1,4 @@
-  /*const items = [
+  const items = [
     { name: 'Bike',  price: 100 },
     { name: 'TV',  price:200 },
     { name: 'Album',  price: 10 },
@@ -51,6 +51,6 @@ const foundItem = items.find((item) => {
              const items2 = [1, 2, 3, 4, 5];
 
               const foundNumber = items2.includes(7)
-              console.log(foundNumber);*/
+              console.log(foundNumber);
 
 

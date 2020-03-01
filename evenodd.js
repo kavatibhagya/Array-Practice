@@ -15,5 +15,5 @@ function evenOrOdd(n)
     }
 }
 evenOrOdd(10);
-// console.log(even);
-// console.log(odd);
+ console.log(even);
+ console.log(odd);
